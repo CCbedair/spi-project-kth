@@ -1,13 +1,13 @@
 # spi-project
 The course project for Communication Systems Design 2019 at KTH. The project is prepared by SPI team.
 
-Team members:
-Ahmed Beder
-Akzahrkyn Duisembiyeva
-Adika Bintang Sulaeman
-Abhishek Mishra
-Bruno Duarte Coscia
-Timur Kartaev
+# Team members:
+1. Ahmed Beder
+2. Akzharkyn Duisembiyeva
+3. Adika Bintang Sulaeman
+4. Abhishek Mishra
+5. Bruno Duarte Coscia
+6. Timur Kartaev
 
 # Logs format
 All logs collected during running of the whole project have the same format:
