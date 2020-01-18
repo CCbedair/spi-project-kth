@@ -1,0 +1,26 @@
+#logging:
+#  #  level:
+#  #    org.springframework: ERROR
+#  #    com.mkyong: DEBUG
+#  pattern:
+#    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+#    file: "%d %p %c{1.} [%t] %m%n"
+#  file: app.log
+server:
+  port: 443
+  ssl:
+    enabled: true
+    key-store: /gm.p12
+    key-store-password: my_password
+    keyStoreType: PKCS12
+    keyAlias: gm
+    trust-store: /trusted_certs.jks
+    trust-store-password: my_password
+gm:
+  csr_file: cert_request.csr
+  private_key_file: private.key
+  gm_x509: myx509.pem
+  intermediate_cert: intermediate.pem
+logging:
+  level:
+    root: ERROR
